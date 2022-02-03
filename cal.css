@@ -1,0 +1,38 @@
+*{
+   font-family: 'Exo 2' sans-serif;
+   font-style: italic;
+   text-transform: uppercase();
+   transition: .1s linear;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0; 
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height:100vh;
+    background-color: darkgoldenrod ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    place-items: center;
+    background:white;
+    height:45rem; 
+    width: 40rem;
+    border-radius:.5rem;
+    box-shadow: 0 0 1rem #333;
+
+    
+
+
+}
